@@ -45,7 +45,7 @@ namespace Практическая_работа_1
                 MessageBox.Show("Значения паролей не совпадают!");
                 return;
             }
-            if ((textBox4.Text != "Директор") && (textBox4.Text != "Бухгалтер") && (textBox4.Text != "Заказчик"))
+            if ((textBox4.Text != "Заказчик") && (textBox4.Text != "Менеджер") && (textBox4.Text != "Кладовщик") && (textBox4.Text != "Директор"))
             {
                 MessageBox.Show("Задана неверная роль!");
                 return;
